@@ -1,0 +1,612 @@
+2015-11-10 15:26:56 10fc InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2015-11-10 15:26:56 4348 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2015-11-10 15:26:56 4348 [Note] InnoDB: The InnoDB memory heap is disabled
+2015-11-10 15:26:56 4348 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2015-11-10 15:26:56 4348 [Note] InnoDB: Memory barrier is not used
+2015-11-10 15:26:56 4348 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2015-11-10 15:26:56 4348 [Note] InnoDB: Not using CPU crc32 instructions
+2015-11-10 15:26:56 4348 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2015-11-10 15:26:56 4348 [Note] InnoDB: Completed initialization of buffer pool
+2015-11-10 15:26:56 4348 [Note] InnoDB: Highest supported file format is Barracuda.
+2015-11-10 15:26:57 4348 [Note] InnoDB: 128 rollback segment(s) are active.
+2015-11-10 15:26:57 4348 [Note] InnoDB: Waiting for purge to start
+2015-11-10 15:26:57 4348 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.26-74.0 started; log sequence number 1835027
+2015-11-10 15:26:57 6140 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2015-11-10 15:26:57 4348 [Note] Plugin 'FEEDBACK' is disabled.
+2015-11-10 15:26:57 4348 [Note] Server socket created on IP: '::'.
+2015-11-10 15:26:57 4348 [Note] Event Scheduler: Loaded 0 events
+2015-11-10 15:26:57 4348 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.8-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2015-11-10 15:27:11 5152 [Note] C:\xampp\mysql\bin\mysqld.exe: Normal shutdown
+
+2015-11-10 15:27:11 5152 [Note] Event Scheduler: Purging the queue. 0 events
+2015-11-10 15:27:11 5732 [Note] InnoDB: FTS optimize thread exiting.
+2015-11-10 15:27:11 5152 [Note] InnoDB: Starting shutdown...
+2015-11-10 15:27:13 5152 [Note] InnoDB: Shutdown completed; log sequence number 1835037
+2015-11-10 15:27:13 5152 [Note] C:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+2017-12-19 12:19:58 4c0 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2017-12-19 12:19:58 1216 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2017-12-19 12:19:58 1216 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2017-12-19 12:19:58 1216 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-12-19 12:19:58 1216 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-12-19 12:19:58 1216 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2017-12-19 12:19:58 1216 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-12-19 12:19:58 1216 [Note] InnoDB: Using generic crc32 instructions
+2017-12-19 12:19:58 1216 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2017-12-19 12:19:58 1216 [Note] InnoDB: Completed initialization of buffer pool
+2017-12-19 12:19:58 1216 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-12-19 12:19:58 1216 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-12-19 12:19:58 1216 [Note] InnoDB: Waiting for purge to start
+2017-12-19 12:19:58 1216 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 1835037
+2017-12-19 12:19:59 9556 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2017-12-19 12:19:59 1216 [Note] Plugin 'FEEDBACK' is disabled.
+2017-12-19 12:19:59 1216 [Note] Server socket created on IP: '::'.
+2017-12-19 12:19:59 1216 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.29-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2017-12-19 12:33:09 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:09 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:09 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:09 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:12 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:12 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:12 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:12 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:12 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:12 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:12 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:12 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:12 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:12 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:12 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:12 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:12 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:12 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:12 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:12 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:13 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:13 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:13 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:13 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:13 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:13 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:13 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:13 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:13 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:13 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:14 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:14 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:14 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:14 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:14 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:14 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:14 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:14 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:14 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:14 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:14 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:14 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:14 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:14 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:17 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:17 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:18 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:18 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:18 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:18 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:18 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:18 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:18 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:18 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:18 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:18 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:19 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:19 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:19 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:19 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:19 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:19 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:19 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:19 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:19 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:19 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:20 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:20 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:20 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:20 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:20 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:20 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:20 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:20 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:20 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:20 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:20 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:20 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:21 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:21 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:21 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:21 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:21 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:21 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:21 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:21 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:21 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:21 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:21 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:21 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:21 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:21 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:22 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:22 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:22 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:22 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:22 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:22 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:22 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:22 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:22 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:22 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:22 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:22 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:22 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:22 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:23 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:23 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:23 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:23 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:23 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:23 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:23 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:23 3772 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2017-12-19 12:33:31 1856 [ERROR] Incorrect definition of table mysql.proc: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVA
+2017-12-19 12:33:31 1856 [ERROR] Incorrect definition of table mysql.event: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVALID_DATES','ERROR_FOR_DIVISION_BY_ZERO','TRADITIONAL','NO_AUTO_CREATE_USER','HIGH_NOT_PRECEDENCE','NO_ENGINE_SUBSTITUTION','PAD_CHAR_TO_FULL_LENGTH'), found type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','NOT_USED','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_A
+2017-12-19 12:33:42 1856 [ERROR] Incorrect definition of table mysql.event: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVALID_DATES','ERROR_FOR_DIVISION_BY_ZERO','TRADITIONAL','NO_AUTO_CREATE_USER','HIGH_NOT_PRECEDENCE','NO_ENGINE_SUBSTITUTION','PAD_CHAR_TO_FULL_LENGTH'), found type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','NOT_USED','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_A
+2017-12-19 12:33:50 1856 [ERROR] Incorrect definition of table mysql.event: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVALID_DATES','ERROR_FOR_DIVISION_BY_ZERO','TRADITIONAL','NO_AUTO_CREATE_USER','HIGH_NOT_PRECEDENCE','NO_ENGINE_SUBSTITUTION','PAD_CHAR_TO_FULL_LENGTH'), found type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','NOT_USED','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_A
+2017-12-19 12:33:55 3772 [ERROR] Incorrect definition of table mysql.event: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVALID_DATES','ERROR_FOR_DIVISION_BY_ZERO','TRADITIONAL','NO_AUTO_CREATE_USER','HIGH_NOT_PRECEDENCE','NO_ENGINE_SUBSTITUTION','PAD_CHAR_TO_FULL_LENGTH'), found type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','NOT_USED','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_A
+2018-03-07 12:40:36 5f70 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2018-03-07 12:40:36 24432 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-03-07 12:40:36 24432 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-03-07 12:40:36 24432 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-03-07 12:40:36 24432 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-03-07 12:40:36 24432 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-03-07 12:40:36 24432 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-03-07 12:40:36 24432 [Note] InnoDB: Using generic crc32 instructions
+2018-03-07 12:40:36 24432 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2018-03-07 12:40:36 24432 [Note] InnoDB: Completed initialization of buffer pool
+2018-03-07 12:40:37 24432 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-03-07 12:40:37 24432 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 1911682 in the ib_logfiles!
+2018-03-07 12:40:37 24432 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2018-03-07 12:40:39 24432 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-03-07 12:40:39 24432 [Note] InnoDB: Waiting for purge to start
+2018-03-07 12:40:39 24432 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 1911682
+2018-03-07 12:40:39 12712 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-03-07 12:40:39 24432 [Note] Plugin 'FEEDBACK' is disabled.
+2018-03-07 12:40:39 24432 [Note] Server socket created on IP: '::'.
+2018-03-07 12:40:40 24432 [ERROR] Incorrect definition of table mysql.event: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVALID_DATES','ERROR_FOR_DIVISION_BY_ZERO','TRADITIONAL','NO_AUTO_CREATE_USER','HIGH_NOT_PRECEDENCE','NO_ENGINE_SUBSTITUTION','PAD_CHAR_TO_FULL_LENGTH'), found type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','NOT_USED','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_A
+2018-03-07 12:40:40 24432 [ERROR] mysqld.exe: Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+2018-03-07 12:40:40 24432 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.29-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-03-28 19:16:58 2198 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2018-03-28 19:16:58 8600 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-03-28 19:16:58 8600 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-03-28 19:16:58 8600 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-03-28 19:16:58 8600 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-03-28 19:16:58 8600 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-03-28 19:16:58 8600 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-03-28 19:16:58 8600 [Note] InnoDB: Using generic crc32 instructions
+2018-03-28 19:16:58 8600 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2018-03-28 19:16:58 8600 [Note] InnoDB: Completed initialization of buffer pool
+2018-03-28 19:16:58 8600 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-03-28 19:16:58 8600 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 1912655 in the ib_logfiles!
+2018-03-28 19:16:59 8600 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2018-03-28 19:16:59 8600 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-03-28 19:16:59 8600 [Note] InnoDB: Waiting for purge to start
+2018-03-28 19:17:00 8600 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 1912655
+2018-03-28 19:17:00 11736 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-03-28 19:17:00 8600 [Note] Plugin 'FEEDBACK' is disabled.
+2018-03-28 19:17:00 8600 [Note] Server socket created on IP: '::'.
+2018-03-28 19:17:00 8600 [ERROR] Incorrect definition of table mysql.event: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVALID_DATES','ERROR_FOR_DIVISION_BY_ZERO','TRADITIONAL','NO_AUTO_CREATE_USER','HIGH_NOT_PRECEDENCE','NO_ENGINE_SUBSTITUTION','PAD_CHAR_TO_FULL_LENGTH'), found type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','NOT_USED','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_A
+2018-03-28 19:17:00 8600 [ERROR] mysqld.exe: Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+2018-03-28 19:17:01 8600 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.29-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-03-28 19:19:39 11812 [ERROR] Incorrect definition of table mysql.proc: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVA
+2018-03-30 15:57:58 3e78 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2018-03-30 15:57:58 15992 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-03-30 15:57:58 15992 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-03-30 15:57:58 15992 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-03-30 15:57:58 15992 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-03-30 15:57:58 15992 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-03-30 15:57:58 15992 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-03-30 15:57:58 15992 [Note] InnoDB: Using generic crc32 instructions
+2018-03-30 15:57:58 15992 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2018-03-30 15:57:58 15992 [Note] InnoDB: Completed initialization of buffer pool
+2018-03-30 15:57:58 15992 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-03-30 15:57:58 15992 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 1921685 in the ib_logfiles!
+2018-03-30 15:57:58 15992 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2018-03-30 15:57:59 15992 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-03-30 15:57:59 15992 [Note] InnoDB: Waiting for purge to start
+2018-03-30 15:57:59 15992 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 1921685
+2018-03-30 15:57:59 3052 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-03-30 15:58:00 15992 [Note] Plugin 'FEEDBACK' is disabled.
+2018-03-30 15:58:00 15992 [Note] Server socket created on IP: '::'.
+2018-03-30 15:58:00 15992 [ERROR] Incorrect definition of table mysql.event: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVALID_DATES','ERROR_FOR_DIVISION_BY_ZERO','TRADITIONAL','NO_AUTO_CREATE_USER','HIGH_NOT_PRECEDENCE','NO_ENGINE_SUBSTITUTION','PAD_CHAR_TO_FULL_LENGTH'), found type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','NOT_USED','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_A
+2018-03-30 15:58:00 15992 [ERROR] mysqld.exe: Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+2018-03-30 15:58:00 15992 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.29-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-03-31 14:04:18 3e58 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2018-03-31 14:04:18 15960 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-03-31 14:04:18 15960 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-03-31 14:04:18 15960 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-03-31 14:04:18 15960 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-03-31 14:04:18 15960 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-03-31 14:04:18 15960 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-03-31 14:04:18 15960 [Note] InnoDB: Using generic crc32 instructions
+2018-03-31 14:04:18 15960 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2018-03-31 14:04:18 15960 [Note] InnoDB: Completed initialization of buffer pool
+2018-03-31 14:04:18 15960 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-03-31 14:04:18 15960 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 1921695 in the ib_logfiles!
+2018-03-31 14:04:19 15960 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2018-03-31 14:04:20 15960 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-03-31 14:04:20 15960 [Note] InnoDB: Waiting for purge to start
+2018-03-31 14:04:20 15960 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 1921695
+2018-03-31 14:04:20 7124 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-03-31 14:04:20 15960 [Note] Plugin 'FEEDBACK' is disabled.
+2018-03-31 14:04:20 15960 [Note] Server socket created on IP: '::'.
+2018-03-31 14:04:20 15960 [ERROR] Incorrect definition of table mysql.event: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVALID_DATES','ERROR_FOR_DIVISION_BY_ZERO','TRADITIONAL','NO_AUTO_CREATE_USER','HIGH_NOT_PRECEDENCE','NO_ENGINE_SUBSTITUTION','PAD_CHAR_TO_FULL_LENGTH'), found type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','NOT_USED','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_A
+2018-03-31 14:04:20 15960 [ERROR] mysqld.exe: Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+2018-03-31 14:04:20 15960 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.29-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-03-31 15:06:00 2798 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2018-03-31 15:06:00 10136 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-03-31 15:06:00 10136 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-03-31 15:06:00 10136 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-03-31 15:06:00 10136 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-03-31 15:06:00 10136 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-03-31 15:06:00 10136 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-03-31 15:06:00 10136 [Note] InnoDB: Using generic crc32 instructions
+2018-03-31 15:06:00 10136 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2018-03-31 15:06:00 10136 [Note] InnoDB: Completed initialization of buffer pool
+2018-03-31 15:06:00 10136 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-03-31 15:06:01 10136 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 1921705 in the ib_logfiles!
+2018-03-31 15:06:01 10136 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2018-03-31 15:06:01 10136 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-03-31 15:06:01 10136 [Note] InnoDB: Waiting for purge to start
+2018-03-31 15:06:01 10136 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 1921705
+2018-03-31 15:06:01 14084 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-03-31 15:06:01 10136 [Note] Plugin 'FEEDBACK' is disabled.
+2018-03-31 15:06:01 10136 [Note] Server socket created on IP: '::'.
+2018-03-31 15:06:01 10136 [ERROR] Incorrect definition of table mysql.event: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVALID_DATES','ERROR_FOR_DIVISION_BY_ZERO','TRADITIONAL','NO_AUTO_CREATE_USER','HIGH_NOT_PRECEDENCE','NO_ENGINE_SUBSTITUTION','PAD_CHAR_TO_FULL_LENGTH'), found type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','NOT_USED','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_A
+2018-03-31 15:06:01 10136 [ERROR] mysqld.exe: Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+2018-03-31 15:06:01 10136 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.29-MariaDB'  socket: ''  port: 3307  mariadb.org binary distribution
+2018-05-01 10:06:58 2c18 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2018-05-01 10:06:58 11288 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-05-01 10:06:58 11288 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-05-01 10:06:58 11288 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-05-01 10:06:58 11288 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-05-01 10:06:58 11288 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-05-01 10:06:58 11288 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-05-01 10:06:58 11288 [Note] InnoDB: Using generic crc32 instructions
+2018-05-01 10:06:58 11288 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2018-05-01 10:06:58 11288 [Note] InnoDB: Completed initialization of buffer pool
+2018-05-01 10:06:58 11288 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-05-01 10:06:58 11288 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 1921715 in the ib_logfiles!
+2018-05-01 10:06:59 11288 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2018-05-01 10:07:00 11288 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-05-01 10:07:00 11288 [Note] InnoDB: Waiting for purge to start
+2018-05-01 10:07:00 11288 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 1921715
+2018-05-01 10:07:00 5052 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-05-01 10:07:00 11288 [Note] Plugin 'FEEDBACK' is disabled.
+2018-05-01 10:07:00 11288 [Note] Server socket created on IP: '::'.
+2018-05-01 10:07:01 11288 [ERROR] Incorrect definition of table mysql.event: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVALID_DATES','ERROR_FOR_DIVISION_BY_ZERO','TRADITIONAL','NO_AUTO_CREATE_USER','HIGH_NOT_PRECEDENCE','NO_ENGINE_SUBSTITUTION','PAD_CHAR_TO_FULL_LENGTH'), found type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','NOT_USED','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_A
+2018-05-01 10:07:01 11288 [ERROR] mysqld.exe: Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+2018-05-01 10:07:01 11288 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.29-MariaDB'  socket: ''  port: 3307  mariadb.org binary distribution
+2018-09-15 15:39:15 2dcc InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2018-09-15 15:39:15 11724 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-09-15 15:39:15 11724 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-09-15 15:39:15 11724 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-09-15 15:39:15 11724 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-09-15 15:39:15 11724 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-09-15 15:39:15 11724 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-09-15 15:39:15 11724 [Note] InnoDB: Using generic crc32 instructions
+2018-09-15 15:39:15 11724 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2018-09-15 15:39:15 11724 [Note] InnoDB: Completed initialization of buffer pool
+2018-09-15 15:39:15 11724 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-09-15 15:39:15 11724 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 1921725 in the ib_logfiles!
+2018-09-15 15:39:16 11724 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2018-09-15 15:39:17 11724 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-09-15 15:39:17 11724 [Note] InnoDB: Waiting for purge to start
+2018-09-15 15:39:17 11724 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 1921725
+2018-09-15 15:39:17 17952 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-09-15 15:39:17 11724 [Note] Plugin 'FEEDBACK' is disabled.
+2018-09-15 15:39:17 11724 [Note] Server socket created on IP: '::'.
+2018-09-15 15:39:19 11724 [ERROR] Incorrect definition of table mysql.event: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVALID_DATES','ERROR_FOR_DIVISION_BY_ZERO','TRADITIONAL','NO_AUTO_CREATE_USER','HIGH_NOT_PRECEDENCE','NO_ENGINE_SUBSTITUTION','PAD_CHAR_TO_FULL_LENGTH'), found type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','NOT_USED','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_A
+2018-09-15 15:39:19 11724 [ERROR] mysqld.exe: Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+2018-09-15 15:39:19 11724 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.29-MariaDB'  socket: ''  port: 3307  mariadb.org binary distribution
+2018-09-17 13:29:00 bc8 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2018-09-17 13:29:00 3016 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-09-17 13:29:00 3016 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-09-17 13:29:00 3016 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-09-17 13:29:00 3016 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-09-17 13:29:00 3016 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-09-17 13:29:00 3016 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-09-17 13:29:00 3016 [Note] InnoDB: Using generic crc32 instructions
+2018-09-17 13:29:00 3016 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2018-09-17 13:29:00 3016 [Note] InnoDB: Completed initialization of buffer pool
+2018-09-17 13:29:00 3016 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-09-17 13:29:00 3016 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 1921735 in the ib_logfiles!
+2018-09-17 13:29:01 3016 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2018-09-17 13:29:02 3016 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-09-17 13:29:02 3016 [Note] InnoDB: Waiting for purge to start
+2018-09-17 13:29:02 3016 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 1921735
+2018-09-17 13:29:02 8560 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-09-17 13:29:02 3016 [Note] Plugin 'FEEDBACK' is disabled.
+2018-09-17 13:29:02 3016 [Note] Server socket created on IP: '::'.
+2018-09-17 13:29:03 3016 [ERROR] Incorrect definition of table mysql.event: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVALID_DATES','ERROR_FOR_DIVISION_BY_ZERO','TRADITIONAL','NO_AUTO_CREATE_USER','HIGH_NOT_PRECEDENCE','NO_ENGINE_SUBSTITUTION','PAD_CHAR_TO_FULL_LENGTH'), found type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','NOT_USED','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_A
+2018-09-17 13:29:03 3016 [ERROR] mysqld.exe: Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+2018-09-17 13:29:03 3016 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.29-MariaDB'  socket: ''  port: 3307  mariadb.org binary distribution
+2018-09-17 13:34:12 2f14 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2018-09-17 13:34:12 12052 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-09-17 13:34:12 12052 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-09-17 13:34:12 12052 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-09-17 13:34:12 12052 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-09-17 13:34:12 12052 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-09-17 13:34:12 12052 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-09-17 13:34:12 12052 [Note] InnoDB: Using generic crc32 instructions
+2018-09-17 13:34:12 12052 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2018-09-17 13:34:12 12052 [Note] InnoDB: Completed initialization of buffer pool
+2018-09-17 13:34:12 12052 [ERROR] InnoDB: C:\xampp\mysql\data\ibdata1 can't be opened in read-write mode
+2018-09-17 13:34:12 12052 [ERROR] InnoDB: The system tablespace must be writable!
+2018-09-17 13:34:12 12052 [ERROR] Plugin 'InnoDB' init function returned error.
+2018-09-17 13:34:12 12052 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2018-09-17 13:34:12 12052 [Note] Plugin 'FEEDBACK' is disabled.
+2018-09-17 13:34:12 12052 [ERROR] Unknown/unsupported storage engine: InnoDB
+2018-09-17 13:34:12 12052 [ERROR] Aborting
+
+2018-09-17 13:34:28 4454 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2018-09-17 13:34:28 17492 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-09-17 13:34:28 17492 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-09-17 13:34:28 17492 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-09-17 13:34:28 17492 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-09-17 13:34:28 17492 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-09-17 13:34:28 17492 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-09-17 13:34:28 17492 [Note] InnoDB: Using generic crc32 instructions
+2018-09-17 13:34:28 17492 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2018-09-17 13:34:28 17492 [Note] InnoDB: Completed initialization of buffer pool
+2018-09-17 13:34:28 17492 [ERROR] InnoDB: C:\xampp\mysql\data\ibdata1 can't be opened in read-write mode
+2018-09-17 13:34:28 17492 [ERROR] InnoDB: The system tablespace must be writable!
+2018-09-17 13:34:28 17492 [ERROR] Plugin 'InnoDB' init function returned error.
+2018-09-17 13:34:28 17492 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2018-09-17 13:34:28 17492 [Note] Plugin 'FEEDBACK' is disabled.
+2018-09-17 13:34:28 17492 [ERROR] Unknown/unsupported storage engine: InnoDB
+2018-09-17 13:34:28 17492 [ERROR] Aborting
+
+2018-09-17 13:51:57 4364 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2018-09-17 13:51:57 17252 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-09-17 13:51:57 17252 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-09-17 13:51:57 17252 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-09-17 13:51:57 17252 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-09-17 13:51:57 17252 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-09-17 13:51:57 17252 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-09-17 13:51:57 17252 [Note] InnoDB: Using generic crc32 instructions
+2018-09-17 13:51:57 17252 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2018-09-17 13:51:57 17252 [Note] InnoDB: Completed initialization of buffer pool
+2018-09-17 13:51:57 17252 [ERROR] InnoDB: C:\xampp\mysql\data\ibdata1 can't be opened in read-write mode
+2018-09-17 13:51:57 17252 [ERROR] InnoDB: The system tablespace must be writable!
+2018-09-17 13:51:57 17252 [ERROR] Plugin 'InnoDB' init function returned error.
+2018-09-17 13:51:57 17252 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2018-09-17 13:51:57 17252 [Note] Plugin 'FEEDBACK' is disabled.
+2018-09-17 13:51:57 17252 [ERROR] Unknown/unsupported storage engine: InnoDB
+2018-09-17 13:51:57 17252 [ERROR] Aborting
+
+2018-09-17 13:55:43 45b8 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2018-09-17 13:55:43 17848 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-09-17 13:55:43 17848 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-09-17 13:55:43 17848 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-09-17 13:55:43 17848 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-09-17 13:55:43 17848 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-09-17 13:55:43 17848 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-09-17 13:55:43 17848 [Note] InnoDB: Using generic crc32 instructions
+2018-09-17 13:55:43 17848 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2018-09-17 13:55:43 17848 [Note] InnoDB: Completed initialization of buffer pool
+2018-09-17 13:55:43 17848 [ERROR] InnoDB: C:\xampp\mysql\data\ibdata1 can't be opened in read-write mode
+2018-09-17 13:55:43 17848 [ERROR] InnoDB: The system tablespace must be writable!
+2018-09-17 13:55:43 17848 [ERROR] Plugin 'InnoDB' init function returned error.
+2018-09-17 13:55:43 17848 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2018-09-17 13:55:43 17848 [Note] Plugin 'FEEDBACK' is disabled.
+2018-09-17 13:55:43 17848 [ERROR] Unknown/unsupported storage engine: InnoDB
+2018-09-17 13:55:43 17848 [ERROR] Aborting
+
+2018-09-17 14:04:21 3328 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2018-09-17 14:04:21 13096 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-09-17 14:04:21 13096 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-09-17 14:04:21 13096 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-09-17 14:04:21 13096 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-09-17 14:04:21 13096 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-09-17 14:04:21 13096 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-09-17 14:04:21 13096 [Note] InnoDB: Using generic crc32 instructions
+2018-09-17 14:04:21 13096 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2018-09-17 14:04:21 13096 [Note] InnoDB: Completed initialization of buffer pool
+2018-09-17 14:04:22 13096 [ERROR] InnoDB: C:\xampp\mysql\data\ibdata1 can't be opened in read-write mode
+2018-09-17 14:04:22 13096 [ERROR] InnoDB: The system tablespace must be writable!
+2018-09-17 14:04:22 13096 [ERROR] Plugin 'InnoDB' init function returned error.
+2018-09-17 14:04:22 13096 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2018-09-17 14:04:22 13096 [Note] Plugin 'FEEDBACK' is disabled.
+2018-09-17 14:04:22 13096 [ERROR] Unknown/unsupported storage engine: InnoDB
+2018-09-17 14:04:22 13096 [ERROR] Aborting
+
+2018-09-18 10:18:53 12cc InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2018-09-18 10:18:53 4812 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-09-18 10:18:53 4812 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-09-18 10:18:53 4812 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-09-18 10:18:53 4812 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-09-18 10:18:53 4812 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-09-18 10:18:53 4812 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-09-18 10:18:53 4812 [Note] InnoDB: Using generic crc32 instructions
+2018-09-18 10:18:53 4812 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2018-09-18 10:18:53 4812 [Note] InnoDB: Completed initialization of buffer pool
+2018-09-18 10:18:53 4812 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-09-18 10:18:54 4812 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 1921745 in the ib_logfiles!
+2018-09-18 10:18:54 4812 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2018-09-18 10:18:55 4812 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-09-18 10:18:55 4812 [Note] InnoDB: Waiting for purge to start
+2018-09-18 10:18:55 4812 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 1921745
+2018-09-18 10:18:56 14416 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-09-18 10:18:56 4812 [Note] Plugin 'FEEDBACK' is disabled.
+2018-09-18 10:18:56 4812 [Note] Server socket created on IP: '::'.
+2018-09-18 10:18:57 4812 [ERROR] Incorrect definition of table mysql.event: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVALID_DATES','ERROR_FOR_DIVISION_BY_ZERO','TRADITIONAL','NO_AUTO_CREATE_USER','HIGH_NOT_PRECEDENCE','NO_ENGINE_SUBSTITUTION','PAD_CHAR_TO_FULL_LENGTH'), found type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','NOT_USED','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_A
+2018-09-18 10:18:57 4812 [ERROR] mysqld.exe: Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+2018-09-18 10:18:57 4812 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.29-MariaDB'  socket: ''  port: 3307  mariadb.org binary distribution
+2018-09-20 11:06:00 52e8 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2018-09-20 11:06:00 21224 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-09-20 11:06:00 21224 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-09-20 11:06:00 21224 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-09-20 11:06:00 21224 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-09-20 11:06:00 21224 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-09-20 11:06:00 21224 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-09-20 11:06:00 21224 [Note] InnoDB: Using generic crc32 instructions
+2018-09-20 11:06:00 21224 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2018-09-20 11:06:00 21224 [Note] InnoDB: Completed initialization of buffer pool
+2018-09-20 11:06:01 21224 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-09-20 11:06:01 21224 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 1921755 in the ib_logfiles!
+2018-09-20 11:06:01 21224 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2018-09-20 11:06:02 21224 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-09-20 11:06:02 21224 [Note] InnoDB: Waiting for purge to start
+2018-09-20 11:06:02 21224 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 1921755
+2018-09-20 11:06:02 3592 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-09-20 11:06:03 21224 [Note] Plugin 'FEEDBACK' is disabled.
+2018-09-20 11:06:03 21224 [Note] Server socket created on IP: '::'.
+2018-09-20 11:06:05 21224 [ERROR] Incorrect definition of table mysql.event: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVALID_DATES','ERROR_FOR_DIVISION_BY_ZERO','TRADITIONAL','NO_AUTO_CREATE_USER','HIGH_NOT_PRECEDENCE','NO_ENGINE_SUBSTITUTION','PAD_CHAR_TO_FULL_LENGTH'), found type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','NOT_USED','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_A
+2018-09-20 11:06:05 21224 [ERROR] mysqld.exe: Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+2018-09-20 11:06:05 21224 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.29-MariaDB'  socket: ''  port: 3307  mariadb.org binary distribution
+2018-09-20 17:02:04 1f68 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2018-09-20 17:02:04 8040 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-09-20 17:02:05 8040 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-09-20 17:02:05 8040 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-09-20 17:02:05 8040 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-09-20 17:02:05 8040 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-09-20 17:02:05 8040 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-09-20 17:02:05 8040 [Note] InnoDB: Using generic crc32 instructions
+2018-09-20 17:02:05 8040 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2018-09-20 17:02:05 8040 [Note] InnoDB: Completed initialization of buffer pool
+2018-09-20 17:02:05 8040 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-09-20 17:02:05 8040 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 1921765 in the ib_logfiles!
+2018-09-20 17:02:05 8040 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2018-09-20 17:02:05 8040 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-09-20 17:02:05 8040 [Note] InnoDB: Waiting for purge to start
+2018-09-20 17:02:06 8040 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 1921765
+2018-09-20 17:02:06 9508 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-09-20 17:02:06 8040 [Note] Plugin 'FEEDBACK' is disabled.
+2018-09-20 17:02:06 8040 [Note] Server socket created on IP: '::'.
+2018-09-20 17:02:06 8040 [ERROR] Incorrect definition of table mysql.event: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVALID_DATES','ERROR_FOR_DIVISION_BY_ZERO','TRADITIONAL','NO_AUTO_CREATE_USER','HIGH_NOT_PRECEDENCE','NO_ENGINE_SUBSTITUTION','PAD_CHAR_TO_FULL_LENGTH'), found type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','NOT_USED','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_A
+2018-09-20 17:02:06 8040 [ERROR] mysqld.exe: Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+2018-09-20 17:02:06 8040 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.29-MariaDB'  socket: ''  port: 3307  mariadb.org binary distribution
+2019-10-09 13:15:30 2cd4 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2019-10-09 13:15:30 11476 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2019-10-09 13:15:30 11476 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-10-09 13:15:30 11476 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-10-09 13:15:30 11476 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-10-09 13:15:30 11476 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2019-10-09 13:15:30 11476 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-10-09 13:15:30 11476 [Note] InnoDB: Using generic crc32 instructions
+2019-10-09 13:15:30 11476 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2019-10-09 13:15:30 11476 [Note] InnoDB: Completed initialization of buffer pool
+2019-10-09 13:15:30 11476 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-10-09 13:15:30 11476 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 1921775 in the ib_logfiles!
+2019-10-09 13:15:31 11476 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2019-10-09 13:15:32 11476 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-10-09 13:15:32 11476 [Note] InnoDB: Waiting for purge to start
+2019-10-09 13:15:32 11476 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 1921775
+2019-10-09 13:15:32 17596 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-10-09 13:15:33 11476 [Note] Plugin 'FEEDBACK' is disabled.
+2019-10-09 13:15:33 11476 [Note] Server socket created on IP: '::'.
+2019-10-09 13:15:35 11476 [ERROR] Incorrect definition of table mysql.event: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVALID_DATES','ERROR_FOR_DIVISION_BY_ZERO','TRADITIONAL','NO_AUTO_CREATE_USER','HIGH_NOT_PRECEDENCE','NO_ENGINE_SUBSTITUTION','PAD_CHAR_TO_FULL_LENGTH'), found type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','NOT_USED','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_A
+2019-10-09 13:15:35 11476 [ERROR] mysqld.exe: Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+2019-10-09 13:15:35 11476 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.29-MariaDB'  socket: ''  port: 3307  mariadb.org binary distribution
+2019-10-24 11:23:32 a68 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2019-10-24 11:23:32 2664 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2019-10-24 11:23:32 2664 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-10-24 11:23:32 2664 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-10-24 11:23:32 2664 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-10-24 11:23:32 2664 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2019-10-24 11:23:32 2664 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-10-24 11:23:32 2664 [Note] InnoDB: Using generic crc32 instructions
+2019-10-24 11:23:32 2664 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2019-10-24 11:23:32 2664 [Note] InnoDB: Completed initialization of buffer pool
+2019-10-24 11:23:32 2664 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-10-24 11:23:32 2664 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 1921785 in the ib_logfiles!
+2019-10-24 11:23:33 2664 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2019-10-24 11:23:34 2664 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-10-24 11:23:34 2664 [Note] InnoDB: Waiting for purge to start
+2019-10-24 11:23:34 2664 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 1921785
+2019-10-24 11:23:34 16680 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-10-24 11:23:34 2664 [Note] Plugin 'FEEDBACK' is disabled.
+2019-10-24 11:23:34 2664 [Note] Server socket created on IP: '::'.
+2019-10-24 11:23:35 2664 [ERROR] Incorrect definition of table mysql.event: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVALID_DATES','ERROR_FOR_DIVISION_BY_ZERO','TRADITIONAL','NO_AUTO_CREATE_USER','HIGH_NOT_PRECEDENCE','NO_ENGINE_SUBSTITUTION','PAD_CHAR_TO_FULL_LENGTH'), found type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','NOT_USED','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_A
+2019-10-24 11:23:35 2664 [ERROR] mysqld.exe: Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+2019-10-24 11:23:35 2664 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.29-MariaDB'  socket: ''  port: 3307  mariadb.org binary distribution
+2019-10-24 11:53:43 21776 [Note] c:\xampp\mysql\bin\mysqld.exe: Normal shutdown
+
+2019-10-24 11:53:44 6100 [Note] InnoDB: FTS optimize thread exiting.
+2019-10-24 11:53:44 21776 [Note] InnoDB: Starting shutdown...
+2019-10-24 11:53:45 21776 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+2019-10-24 11:53:46 21776 [Note] InnoDB: Shutdown completed; log sequence number 1921795
+2019-10-24 11:53:46 21776 [Note] c:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+2019-10-24 11:55:40 633c InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2019-10-24 11:55:40 25404 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2019-10-24 11:55:40 25404 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-10-24 11:55:40 25404 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-10-24 11:55:40 25404 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-10-24 11:55:40 25404 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2019-10-24 11:55:40 25404 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-10-24 11:55:40 25404 [Note] InnoDB: Using generic crc32 instructions
+2019-10-24 11:55:40 25404 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2019-10-24 11:55:40 25404 [Note] InnoDB: Completed initialization of buffer pool
+2019-10-24 11:55:40 25404 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-10-24 11:55:41 25404 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-10-24 11:55:41 25404 [Note] InnoDB: Waiting for purge to start
+2019-10-24 11:55:41 25404 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 1921795
+2019-10-24 11:55:41 12520 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-10-24 11:55:41 25404 [Note] Plugin 'FEEDBACK' is disabled.
+2019-10-24 11:55:41 25404 [Note] Server socket created on IP: '::'.
+2019-10-24 11:55:41 25404 [ERROR] Incorrect definition of table mysql.event: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVALID_DATES','ERROR_FOR_DIVISION_BY_ZERO','TRADITIONAL','NO_AUTO_CREATE_USER','HIGH_NOT_PRECEDENCE','NO_ENGINE_SUBSTITUTION','PAD_CHAR_TO_FULL_LENGTH'), found type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','NOT_USED','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_A
+2019-10-24 11:55:41 25404 [ERROR] mysqld.exe: Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+2019-10-24 11:55:41 25404 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.29-MariaDB'  socket: ''  port: 3307  mariadb.org binary distribution
+2019-10-24 12:51:54 25872 [Note] C:\xampp\mysql\bin\mysqld.exe: Normal shutdown
+
+2019-10-24 12:51:54 29496 [Note] InnoDB: FTS optimize thread exiting.
+2019-10-24 12:51:54 25872 [Note] InnoDB: Starting shutdown...
+2019-10-24 12:51:55 25872 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+2019-10-24 12:51:57 25872 [Note] InnoDB: Shutdown completed; log sequence number 1921805
+2019-10-24 12:51:57 25872 [Note] C:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
